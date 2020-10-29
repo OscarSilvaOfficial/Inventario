@@ -219,3 +219,5 @@ LOGOUT_REDIRECT_URL = '/admin/login'
 LOGIN_URL = 'admin/login'
 LOGIN_REDIRECT_URL = '/ramais/'
 
+import django_heroku
+django_heroku.settings(locals())
