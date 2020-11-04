@@ -7,7 +7,7 @@ PROJECT_PATH = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
 SECRET_KEY = '=+eq6ue8oz^evix75tcnzpkr_k)9!!rdehf7ltiarg5d+i0^jj'
 
-DEBUG = False
+DEBUG = True
 
 '''
 AUTHENTICATION_BACKENDS = (
